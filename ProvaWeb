@@ -1,7 +1,18 @@
+<!DOCTYPE html>
+
 <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Brasil</title>
+        <script src="https://unpkg.com/feather-icons"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
 <body>
     <!--A tag body contém todos os elementos inseridos na págima-->
     <header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXvH92-UGDU38zwBxb-OiqGnYK7Q2CbNWIdH0_XUOcAPEuWvU14u4wDITsQOjeJKrVWtE&usqp=CAU">
         <!--Seçao da página que contem os elementos de navegação-->
         <nav>
             <p></p>
@@ -58,7 +69,7 @@
                             <ul>
                                 <li><i data-feather="smile"></i>Alegria</li>
                                 <li><i data-feather="map"></i>Rotas</li>
-                                <li><i data-feather="anchor"></i>Paradas</li>
+                                <li><i data-feather="camera"></i>Fotos</li>
                                 
     
                             </ul>
@@ -142,4 +153,7 @@
 
 
     </div>
+    <script>
+        feather.replace()
+      </script>
     </html>
