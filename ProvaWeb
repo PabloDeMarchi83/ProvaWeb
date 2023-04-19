@@ -1,0 +1,145 @@
+<html lang="pt-br">
+<body>
+    <!--A tag body contém todos os elementos inseridos na págima-->
+    <header>
+        <!--Seçao da página que contem os elementos de navegação-->
+        <nav>
+            <p></p>
+            <!--Adiciona uma lista desordenada-->
+            <ul>
+                <li><a href="Home">Home</a></li>
+                <li><a href="info">informações</a></li>
+                
+                <li><a href="contato">Contato</a></li>
+            </ul>
+        </nav>
+    <div id="home" class="header-content">
+        <h1>Conheça o brasil</h1>
+        <p>O Brasil, um vasto país sul-americano, estende-se da Bacia Amazônica, no norte, até os vinhedos e as gigantescas Cataratas do Iguaçu, no sul. O Rio de Janeiro, simbolizado pela sua estátua de 38 metros de altura do Cristo Redentor, situada no topo do Corcovado, é famoso pelas movimentadas praias de Copacabana e Ipanema, bem como pelo imenso e animado Carnaval, com desfiles de carros alegóricos, fantasias extravagantes e samba
+!</p>
+        
+
+    </div>
+    
+    </header><section id="pacotes" class="pacotes">
+        <h1 class="pacotes-title">
+            Conheça nossos pacotes </h1>
+            <div class="pacotes-card">
+                <div class="card">
+                    <div class="card-tag card-tag-top">
+                        <p>Promoção</p>
+                    </div>
+                    <div class="card-tag-bottom">
+                        <p>R$ 50,00</p>
+                    </div>
+                    <img src="https://s3.static.brasilescola.uol.com.br/be/2022/10/cataratas-iguacu.jpg" alt="" class="card-image">
+                    <div class="card-content">
+                        <h1>Passeio nas cataratas-iguaçu</h1>
+                        <ul>
+                            <li><i data-feather="smile"></i>Alegria</li>
+                            <li><i data-feather="map"></i>Rotas</li>
+                            <li><i data-feather="camera"></i>Fotos</li>
+
+
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-tag card-tag-top">
+                            <p>Promoção</p>
+                        </div>
+                        <div class="card-tag-bottom">
+                            <p>R$ 40,00</p>
+                        </div>
+                        <img src="data:image/jpeg;base64,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" alt="" class="card-image1">
+                       
+                        <div class="card-content">
+                            <h1>Conheça o Cristo Redentor</h1>
+                            <ul>
+                                <li><i data-feather="smile"></i>Alegria</li>
+                                <li><i data-feather="map"></i>Rotas</li>
+                                <li><i data-feather="anchor"></i>Paradas</li>
+                                
+    
+                            </ul>
+                        </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-tag card-tag-top">
+                                <p>Promoção</p>
+                            </div>
+                            <div class="card-tag-bottom">
+                                <p>R$ 150,00</p>
+                            </div>
+                            <img src="https://cdn.guiadonomadedigital.com/wp-content/uploads/2016/04/beto_carrero_world_castelo-das-nacoes.jpg" alt="" class="card-image2">
+                            
+                            <div class="card-content">
+                                <h1>Beto Carreiro</h1>
+                                <ul>
+                                    <li><i data-feather="smile"></i>Alegria</li>
+                                    <li><i data-feather="wifi"></i>Wifi Grátis</li>
+                                    <li><i data-feather="coffee"></i>Café Grátis</li>
+                                    
+                                    
+                                </ul>
+                            </div>
+                            </div>
+
+                    </div>
+                
+            
+    </section>
+    <section id="servicos" class="servicos">
+
+        <h1 class="servicos-title">Serviços</h1>
+        <div class="servicos-cards">
+            <div class="card">
+                <i data-feather="map"></i>
+                <div class="card-content">
+                    <h3>Cataratas</h3>
+                    <p>Alimentadas pelas águas do rio Iguaçu, as cataratas se estendem por 2,7 quilômetros e têm entre 60 e 82 metros de altura de queda. Em 1986 elas foram listadas como Patrimônio Mundial pela Unesco e, no ano de 2012, entraram para a lista das Sete Maravilhas da Natureza.</p>
+
+                </div>
+                <button>Saiba Mais</button>
+
+            </div>
+            <div class="card">
+                <i data-feather="camera"></i>
+                <div class="card-content">
+                    <h3>Cristo Redentor</h3>
+                    <p>O monumento Cristo Redentor é uma famosa estátua de Jesus Cristo localizada no Rio de Janeiro, no morro do Corcovado. É um símbolo do cristianismo no Brasil que representa paz e amor, com Jesus de braços abertos.</p>
+
+                </div>
+                <button>Saiba Mais</button>
+                
+            </div>
+            <div class="card">
+                <i data-feather="navigation"></i>
+                <div class="card-content">
+                    <h3>Beto Carreiro</h3>
+                    <p>A História do Herói. Menino pobre, nascido no interior do estado de São Paulo, João Batista sonhava em ser o Zorro brasileiro e trabalhar em um parque de diversões. Mal sabia ele que seus humildes sonhos se transformariam com os anos, e que ele construiria um dos maiores parques multitemáticos do MUNDO!</p>
+
+                </div>
+                <button>Saiba Mais</button>
+                
+            </div>
+        </div>
+    </section>
+    <div class="contatos">
+        <h2> Pablo de Marchi</h2>
+        <ul>
+            <div class="linkedin"><i data-feather="linkedin"></i>pablodemarchi@gmail.com</div>
+            
+            <div class="facebook"><li><i data-feather="facebook"></i>Pablo de Marchi</div>
+                
+            
+            <div class="instagram"><i data-feather="instagram"></i>.DeMarchi</div>
+            <div class=" phone"><i data-feather="phone"></i>45 4581324654</div>
+       <h3></h3>
+      <p>Desenvolvido: Pablo De Marchi  &reg</p>
+       </ul>
+
+
+
+    </div>
+    </html>
